@@ -44,7 +44,7 @@ The steps to be followed to achieve objectives of this project are as below.
 
 1. Download the .zip file from below link and unzip to the R working directory
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-2. Use the read_table {reader} function to read data from *X_test, X_train, y-test, y_train, subject_test, subject_train* into local variables (as specified under the 'Variables section'). The read_table function works best for the file structure (delimited file structure) seen here.
+2. Use the read_table {reader} function to read data from *X_test, X_train, y-test, y_train, subject_test, subject_train* into local variables (as specified under the 'Variables section'). The read_table function works best for the file structure (delimited by space file structure) seen here.
 3. Use cbind {base} to combine the subject ids (*fTestSubj*), activity ids (*fTestAct*) and corressponding observations (*fTestObv*) of the 'test' set into *fTestAll*. Do the same for the 'train' set and combine into *fTrainAll*.
 4. Use fread {data.table} to read the features file into *fFeatures*
 5. Use the grep {base} to extarct postions of mean and standard deviation features from *fFeatures*, into *i, j* respectively.
