@@ -54,4 +54,4 @@ for(l in 1:6) {
 meanDF <- meanDF[, 3:70]
 
 ## Write out the clean file
-write.csv(meanDF, file = "meanDF.csv", row.names = FALSE)
+write.table(meanDF, file = "meanDF.txt", row.names = FALSE)

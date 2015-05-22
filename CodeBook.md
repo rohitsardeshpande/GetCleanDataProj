@@ -55,4 +55,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 10. Use aggregate {stats} to compute the arithmetic mean of the various observations based on pairs of subject and activity. Store it in *meanDF*.
 11. use the sub {base} function to replace the activity ids by their descriptive names.
 12. The aggregate function automatically adds group ids to the result data frame. Subset *meanDF* to keep all other columns, except the groups added.
-13. Write out the clean and tidy CSV file using write.csv {utils} from *meanDF*.
+13. Write out the clean and tidy text file using write.table {utils} from *meanDF*.
